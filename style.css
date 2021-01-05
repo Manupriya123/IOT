@@ -1,0 +1,264 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home-banner{
+	background: url('images/homepage-banner.jpg');
+	text-align: center;
+	color:#eee;
+	font-family: Georgia;
+	padding-bottom: 200px;
+	max-height:300px;
+}
+
+.home-banner h1{
+	font-size:60px!important;
+}
+.navbar{
+	margin-bottom: 0px!important;
+}
+.column-outline{
+	border:1px solid #333;
+}
+
+.column-outline img{
+	width:100%;
+}
+.article-row{
+	margin:50px 0px;
+}
+.article-title {
+	display: block;
+	padding:20px 0px;
+}
+.column-outline span{
+	display: block;
+	padding-top:20px;
+}
+/*.article-row div:nth-child(2)
+{
+	margin:0px 10px;
+}*/
+footer{
+	background-color: #f4f4f4;
+}
+.navigation{
+	padding-top:20px;
+	padding-bottom: 40px;
+}
+.footer-items li, .social-icons li{
+	display: inline-block;
+}
+.navigation ul, .social-icons{
+	margin:0;
+	padding:0;
+}
+.social-icons li{
+	padding:0px 20px;
+}
+.social-icons li span{
+	font-size:30px;
+}
+
+
+.footer-items li a{
+	color:#5a5a5a;
+	padding:20px;
+}
+
+.footer-items li a:nth-child(1){
+	color:#5a5a5a;
+	padding-right:20px;
+}
+
+.ha-banner{
+	background:url("images/home-automation-banner.jpg");
+	background-size:cover; 
+}
+.ha-banner{
+	color:#eee;
+	padding:100px 0px;
+}
+
+.ha-banner h2{
+	font-size:50px;
+	margin:20px 0px;
+}
+.ha-banner p{
+	font-size:20px;
+	margin:20px 0px;
+	line-height: 2;
+}
+.cubical-master{
+	padding:30px 0px;
+	margin:80px auto;
+}
+.cm-img{
+	width:500px;
+}
+.cm-content p{
+	font-size:20px;
+	line-height:1.5;
+	margin:10px 0px;
+	font-weight: 400;
+}
+.cm-content h3{
+	line-height:1.5;
+	margin:10px 0px;
+	font-weight: 700;
+}
+.cm-product h3{
+	font-size:30px;
+	margin:20px 0px;
+	font-weight: 700;
+}
+
+.cm-product ul li{
+	line-height: 1.5;
+	margin:10px 0px;
+	font-size:16px;
+}
+.master-banner{
+	margin:40px 0px;
+	padding:0!important;
+}
+.master-banner img,.banner-img{
+	width:100%;
+}
+hr{
+	width:20%;
+}
+.master-section{
+	padding:30px;
+}
+.master-section p{
+	font-size:16px;
+	line-height: 1.5;
+}
+.po{
+	padding:30px 0px;
+}
+.mo{
+	margin:30px 0px;
+}
+.pro-features{
+	margin:0;
+	padding:0;
+	list-style-position: inside;
+}
+.pro-features li{
+	font-size:16px;
+	line-height: 1.5;
+}
+.master-section p span{
+	font-weight: bold;
+}
+.customBtn{
+	width:100%;
+	background-color: transparent;
+	border:1px solid #007bff;
+	color:#007bff;
+}
+.customBtn:hover{
+	background-color: #007bff;
+	color:#eee;
+	transition:0.5s;
+}
+.product-pricing h4{
+	padding:20px 0px;
+	margin:0!important;
+}
+.product-pricing h2{
+	padding:30px 0px;
+	background-color:#676767 !important;
+	color:#eee;
+	margin:0!important;
+	margin-bottom:20px!important;
+}
+.product-pricing p{
+	font-size:16px;
+	border-bottom: 2px solid #ddd;
+}
+
+.fill-img{
+	width:100%;
+}
+
+.custom-banner
+{
+	
+	position: absolute;
+	top:50%;
+	transform: translate(0%,-50%);
+	z-index:1;
+}
+.custom-banner h2{
+	color:#eee;
+	font-size:50px;
+	text-align: center;
+}
+.rp{
+	position: relative; 
+}
+.np{
+	padding:0!important;
+}
+.em{
+	margin-bottom:100px;
+}
+.emt{
+	margin-top:80px;
+}
+.about-banner h2{
+	text-align: left!important;
+	color:#000!important;
+}
+.about-banner hr{
+	border-top-color:rgb(0, 0, 0)!important;
+	margin:0;
+	margin-left:30px;
+	max-width:200px;
+}
+.cc{
+	width:70%;
+}
+.cc h4{
+	line-height: 1.7;
+	margin-bottom: 20px;
+}
+.cc p{
+	line-height:1.5;
+	font-size:16px;
+	margin:10px 0px;
+}
+.custom-banner-section{
+	background: url(images/cubical-who-we-are.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sm{
+	margin:20px 0px;
+}
+.sp{
+	padding:20px 30px;
+}
+.custom-banner-section p{
+	font-size:16px;
+	line-height: 1.5;
+	margin:20px 0px;
+}
+.bg-pri{
+	background-color:rgba(51, 122, 183,0.7);
+	color:#eee;
+}
+
+.nm{
+	margin:0px!important;
+}
